@@ -1,0 +1,31 @@
+{
+  "name": "nodecat",
+  "version": "0.0.1",
+  "description": "노드버드 2차 서비스",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sseyoung513/nodecat.git"
+  },
+  "author": "KSY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sseyoung513/nodecat/issues"
+  },
+  "homepage": "https://github.com/sseyoung513/nodecat#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "morgan": "^1.10.0",
+    "nunjucks": "^3.2.2"
+  }
+}
